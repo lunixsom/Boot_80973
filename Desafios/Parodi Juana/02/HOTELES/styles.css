@@ -1,0 +1,134 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #3a4b5a;
+  background: #fff;
+  line-height: 1.75;
+}
+
+
+.site-header {
+  padding: 32px 16px 8px;
+  text-align: center;
+}
+
+.logo {
+  width: min(320px, 60vw);
+  height: auto;
+  display: block;
+  margin: 0 auto 8px;
+}
+
+.hero-title {
+  margin: 12px 0 18px;
+  font-weight: 600;
+  color: #b56aaa;
+  font-size: clamp(2rem, 6vw, 4rem);
+  letter-spacing: .35em;
+  text-shadow: 2px 2px 0px #d1a03d55, 0 4px 14px #0002;
+}
+
+
+.wrap {
+  width: min(100%, 1400px);
+  margin-inline: auto;
+  padding: 0 8px 48px;
+}
+
+p {
+  font-size: 12px;
+  margin: 0 0 24px;
+  line-height: 1.6;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  color: darkblue;
+}
+
+.hotel-title {
+  color: #b56aaa;
+  font-weight: 600;
+  font-size: clamp(1.4rem, 2.8vw, 2.1rem);
+  letter-spacing: .35em;
+  margin: 0;
+  grid-column: 1 / -1;
+  margin-bottom: 8px;
+}
+
+.hotel-copy,
+.hotel-copy-izq {        
+  grid-column: 1;
+}
+
+.hotel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title title"
+    "copy  media";
+  column-gap: 24px;
+  row-gap: 12px;
+  align-items: start;
+  padding: 28px 0 40px;
+  border-bottom: 1px solid #e9eef2;
+}
+
+.hotel:last-child {
+  border-bottom: none;
+}
+
+
+
+
+
+.hotel-media {
+   grid-column: 2;
+  justify-self: end;
+  margin: 0; 
+   align-self: start;
+}
+
+.hotel-caribbean .hotel-media {
+  grid-column: 1;
+  justify-self: start;
+}
+.hotel-caribbean .hotel-copy {
+  grid-column: 2;
+}
+
+.hotel-copy {
+  grid-column: 1;
+  grid-area: copy;
+  margin: 0;
+  align-self: start;
+}
+.hotel-copy > :first-child { margin-top: 0; }
+
+.hotel-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px solid var(--frame);
+  outline: 4px solid var(--outline);
+  outline-offset: -4px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, .18);
+}
+
+.mickey-minnie {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.hotel-title {
+  grid-column: 1 / -1;
+margin: 0;
+}
+

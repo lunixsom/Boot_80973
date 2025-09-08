@@ -1,0 +1,13 @@
+body{
+    text-align: center ;
+}
+
+h1{
+    color: palevioletred;
+}
+
+p {text-align: justify;}
+
+h2 {text-align: left; color: palevioletred;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

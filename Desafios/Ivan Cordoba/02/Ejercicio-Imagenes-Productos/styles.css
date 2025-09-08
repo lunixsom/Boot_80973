@@ -1,0 +1,52 @@
+body {
+    background-color: #008B8B;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    background-color: white;
+    color: cadetblue;
+    text-align: center;
+}
+
+p {
+    width: auto;
+    text-align: justify;
+}
+
+img {
+    width: 450px;
+    margin-left: 30px;
+}
+
+h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-style: italic;
+}
+
+.Aspiradora {
+    color: #d6ceb6;
+}
+
+.Celular {
+    color: #ce2f4f;
+}
+
+.Consola {
+    color: #d16943;
+}
+
+.Home {
+    color: rgb(234, 33, 33);
+}
+
+.Televisor {
+    color: #c25609;
+
+
+
+
+'Roboto', sans-serif
+- Impact, Charcoal, sans-serif
+- Arial, Gadget, sans-serif

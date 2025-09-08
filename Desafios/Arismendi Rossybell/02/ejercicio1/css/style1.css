@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #021a3d;
+    color: #f7f8e0;
+    text-align: justify;
+}
+h1{
+
+    font-family: Impact, Charcoal, sans-serif;
+    color: rgb(1, 21, 11);
+    background-color: #e0faf375;
+    text-align: center;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    
+}
+img{
+    margin-left: 5% ;
+    border: 5px solid rgb(22, 3, 129);
+}
+.titulo-1{
+    color: rgb(196, 255, 196);
+
+}
+.titulo-2{
+    color: rgb(20, 161, 114);
+}
+.titulo-3{
+    color: rgb(74, 108, 97);
+}
+.titulo-4{
+    color: rgba(111, 139, 130, 0.943);
+}
+.titulo-5{
+    color: rgb(88, 191, 157);
+}

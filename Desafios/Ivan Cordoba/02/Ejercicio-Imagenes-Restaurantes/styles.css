@@ -1,0 +1,42 @@
+body {
+    background-color: #39C5BB;
+    font-family: 'Arial Narrow', sans-serif;
+    color: crimson;
+    text-align: center;
+}
+
+
+.imagenes img{
+    border: 1rem solid aliceblue;
+    margin: 1em;
+}
+
+
+
+
+/* @media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+@media (max-width: 480px) {
+  header, main, footer {
+    padding: 10px;
+  } */
+
+
+
+
+
+
+
+
+
+/* Las tipografías utilizadas son:
+
+- 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+Los colores de los titulus, body y borde de la imagen son a elección. */

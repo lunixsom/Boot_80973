@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+    background-color: white;
+    color: #698593;
+    margin: 50px 0;
+    text-align: center;
+    font-family: Impact, sans-serif;
+    letter-spacing: 3px;
+    font-size: 60px;
+}
+h2{
+    color: blanchedalmond;
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+p{
+    text-align: justify;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;    
+}
+body{
+    background-color: #273238;
+}
+#ima-apiradora{
+    border: 5px solid #48e;
+    margin-left: 50px;
+}
+#ima-celular{
+    border: 5px solid #a22;
+    margin-left: 50px;
+}
+#ima-consola{
+    border: 5px solid #47AB0C;
+    margin-left: 50px;
+}
+#ima-teatro{
+    border: 5px solid #890CAB;
+    margin-left: 50px;
+}
+#ima-televisor{
+    border: 5px solid white;
+    margin-left: 50px;
+}

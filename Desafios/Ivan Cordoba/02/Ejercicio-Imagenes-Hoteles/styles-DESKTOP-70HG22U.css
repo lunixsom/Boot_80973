@@ -1,0 +1,51 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: auto;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Lucida Sans Regular', sans-serif;
+    text-align: center;
+    color: #e90a88;
+}
+
+h3 {
+    font-family: 'Lucida Sans', sans-serif;
+    color: #e90a88;
+}
+
+.container-resort {
+    display: inline-block;
+    float: right;
+}
+
+.container-caribbean {
+    display: inline-block;
+    float: left;
+}
+
+.container-resort img, .container-caribbean img {
+    
+    height: auto;
+    margin: 5px;
+    }
+
+p {
+    font-family:  'Lucida Sans Unicode', sans-serif;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: justify;
+}
+'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
