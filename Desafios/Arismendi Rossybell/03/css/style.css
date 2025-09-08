@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(247, 237, 224);
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+}
+.contenedor img{
+    width: 100%;
+    display: block;
+    height:auto;
+    max-width: 1500px;
+
+}
+.texto-contenedor{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 85%;
+    left: 1%;
+    bottom: 10%;
+    color: antiquewhite;
+    font-size: 40px;
+    text-align:left;
+}
+.h-2{
+    color: #416d0f;
+    font-size: 50px;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+.links{
+    color: rgb(51, 81, 51);
+    text-decoration: underline;
+    display: inline-flex;
+    padding: auto;
+    margin: 10px;
+    font-weight: bold;
+    border: 5px;
+    font-size: 20px;
+
+}
+.gion {
+    color: rgb(3, 33, 3);
+    
+    display: inline-flex;
+    padding: auto;
+    margin: 10px;
+    font-weight: bold;
+    border: 5px;
+}
+.sub-titulos{
+    background-color: #a3af95;
+    color: #39442c;
+
+}
+#titulo3{
+     background-color: #a3af95;
+    color: #753723;
+}
+.links-texto{
+    text-decoration: underline;
+    color: #085f35;
+    font-weight: bold;
+}
+
+.lin{
+    
+    color: #085f35;
+    font-weight: bold;
+}
+
+#nacion{
+    text-decoration: underline;
+    color: #28096c;
+    font-weight: bold;
+
+}
+#pag{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #5f2b08;
+}

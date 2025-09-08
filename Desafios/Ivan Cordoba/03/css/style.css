@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body{
+            margin-left: 10px;
+            width: 100%;
+            background-color: #e6e3e3;
+            font-size: 24px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        header {
+            width: 100%;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .container img{
+            width: 100%;
+            height: 300px;
+            
+        }
+
+        .absoluto {
+            position: absolute;
+            /* top: 240px; */
+            bottom: 10px;
+            left: 5px;
+            font-size: 50px;
+            font-weight: bold;
+            text-transform: uppercase; 
+            color: white;
+            font-family: 'Lato', sans-serif;
+            letter-spacing: 5px;
+        }
+
+        h1 {
+            color: #8c2c06d8;
+            padding: 5px;
+            margin-top: 10px;
+            display: flex;
+            
+        }
+
+        a {
+            text-decoration: none;
+            color: #d86a10;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 24px;            
+        }
+
+        nav a:hover {
+            color: #8c2c06d8;
+            text-decoration: underline;
+        }
+
+        nav a{
+            font-size: 28px;
+        }
+
+        h2 {
+            font-family: 'Lato', sans-serif;
+            margin: 10px 10px;
+            padding: 2px;
+            background-color: #8c2c06d8;
+            color: whitesmoke;
+            width: 99%;         
+        }
+
+        li {
+            margin: 5px;
+        }
+
+        .instalaciones ul, .alquileres ul, .notas ul{
+            margin-left: 30px;
+            padding-left: 20px;
+        }
+        
+        .parrafos{
+            margin-left: 20px;
+            padding-left: 10px;
+        }
+
+        div.elegirnos ol li{
+            padding-left: 30px;
+            margin-left: 40px;
+        }
+        
+        .dentro{
+           margin-left: -15px;
+        }

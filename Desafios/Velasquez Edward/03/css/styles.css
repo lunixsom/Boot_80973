@@ -1,0 +1,40 @@
+a:link{
+    color: rgb(230, 61, 61);
+}
+
+.enlaces-head {
+    font-size: 120%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    background-color: rgb(228, 100, 53);
+    color: white;
+    font-family: Rajdhani;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    }
+
+.texto {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    bottom: 30px;
+    padding:0px 0px 0px 50px; 
+}
+
+.contenedor img {
+    width: 100%;  
+}
+
+ #pregunta{
+    color: rgb(249, 194, 53);
+}
+

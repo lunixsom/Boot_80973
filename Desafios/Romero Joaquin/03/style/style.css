@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0%;
+    font-family: Rajdhani ;
+}
+
+
+
+.cabeza {
+    position: relative;
+}
+
+img {
+     display: block;
+     text-align: center;
+     position: relative;
+     width: 100%;
+     height: auto;
+}
+
+
+.TITULO {
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+    color: white;
+    font-family: TASA Orbiter , sans-serif;
+}
+
+.importante {
+    display: flex;
+    list-style: none;
+    gap: 8%;
+
+    /*texto*/
+    
+
+    font-size: 1.5rem;
+    
+
+}
+
+a {
+    color: orange;
+}
+
+.segundo {
+    padding: 2rem;
+    color: sienna;
+    font-size: 40px;
+    font-family: TASA Orbiter , sans-serif;
+}
+
+.caja  {
+    background-color: sienna;
+    color: white;
+    font-size: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.marron {
+    color: sienna;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+p {
+    padding: 10px;
+    color: sienna;
+}
+
+.pagina {
+    color: red;
+}
+
+.Nacion {
+    color: aqua;
+}
+
+.ueles {
+    margin: 5px;
+    padding: 5px;
+}
+
+.caja2  {
+    background-color: sienna;
+    color: yellow;
+    font-size: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.final {
+    color: sienna;
+}
