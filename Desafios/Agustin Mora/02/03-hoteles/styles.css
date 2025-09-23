@@ -1,0 +1,52 @@
+header{
+    text-align:  center;
+    padding: 20px;
+}
+
+h1{
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(182, 33, 132, 0.705);;
+    letter-spacing: 18px;
+    font-weight: 500;
+    
+}
+.logo{
+   width: 600px;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(182, 33, 132, 0.705);
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+
+p{
+    font-family: 'Lucida Sans Unicode';
+    color: rgb(40, 40, 141);
+    opacity: 0.5;
+}
+
+.imagen-derecha {
+    float: right;
+    margin: 0 0 10px 20px; /* espacio entre imagen y texto */
+    width: 500px; /* ajusta el tamaño */
+}
+
+.imagen-pop{
+    margin-right: 20px;
+}
+
+.imagen-izquierda {
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 500px;
+}
+
+.imagenmickey{
+    width: 100%;
+    height: auto;
+    display: block;
+}

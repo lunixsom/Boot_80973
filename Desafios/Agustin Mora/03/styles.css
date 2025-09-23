@@ -1,0 +1,54 @@
+
+
+
+body {
+    background-color: #f4f1ec;
+    font-family: "Oswald",sans-serif;
+    margin: 0
+    
+}
+header{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+header img {
+    width: 100%;
+    height: auto;
+}
+header h1 {
+    position: absolute;
+    font-size: 40px;
+    bottom: 20px;
+    left: 20px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.camping{
+    color: #5c2f00;
+}
+h2{
+    background-color: #5c2f00;
+    color: white;
+    padding: 5px;
+}
+
+.unico {
+    background-color: #5c2f00;
+    color: rgb(219, 219, 22);
+    padding: 5px;
+}
+
+nav a{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(235, 152, 0);
+}
+
+a {
+    color: rgb(235, 152, 0);
+}

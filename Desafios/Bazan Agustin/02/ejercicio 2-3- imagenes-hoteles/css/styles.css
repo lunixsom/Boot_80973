@@ -1,0 +1,76 @@
+body{
+    font-family: 'Lucida Sans',sans-serif;
+     color: rgb(57, 57, 166);
+}
+
+.logo{
+    text-align: -webkit-center;
+  
+}
+
+.logo-img {
+    display: block;
+    margin: 0;
+    width: 30%;
+    height: auto;
+}
+h1{
+
+    letter-spacing: 0.8rem;
+    text-align: center;
+    font-size: 4rem;
+   
+}
+h3{
+    letter-spacing: 0.5rem;
+    text-align: left;
+}
+
+.resort{
+    overflow: hidden;
+}
+.img-resort{
+    float: right;
+    margin-left: 20px;
+    width: 500px;
+    height: auto;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.Caribbean{
+    overflow: hidden;
+}
+
+.Caribbean-img{
+    float: left;
+    margin-right: 20px;
+    width: 500px;
+    height: auto;
+}
+
+.kingdom{
+    overflow: hidden;
+}
+
+.img-kingdom{
+    float: right;
+    margin-left: 20px;
+    width: 500px;
+    height: auto;
+}
+
+.img-final{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+
+}
+
