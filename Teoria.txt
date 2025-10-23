@@ -1,0 +1,42 @@
+
+Clase 15
+
+    Armado de una card para el ecommerce ( 4 min a  )
+
+    Las imagenes yo les voy a setear un tamaño fijo.
+
+    PARA QUE O SE DEFORME LA IMAGEN EN LA CARD POR EL TAMAÑO USO LA PROPIEDAD: object-fit: cover    
+
+
+    width: 100% porque va a tomar el ancho maximo del flex-basis que defini en la card o width tambien funcionaria bien.
+
+    flex-grow (26 min)
+
+        Por defecto esta en cero.
+
+        Se aplica sobre el contenedor hijo y hace que los elementos se distribuyan con el mismo tamaño
+
+
+    flex-basis (29 min)
+
+        Es un ancho definido fijo sin importar el contenido.
+
+        Los textos TITULOS voy a utilizar flex-basis para que no me hagan cards de diferentes tamaños por el largo de su titulo.
+
+        Tambien funciona ok si solo uso width.
+
+
+ **************************************************************************************
+
+Clase 16
+
+
+
+ **************************************************************************************
+
+Clase 26
+
+
+JS ARRAY
+
+JS Objetos
