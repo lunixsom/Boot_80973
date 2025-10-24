@@ -26,6 +26,27 @@ Clase 15
         Tambien funciona ok si solo uso width.
 
 
+    Position Absolute ( 45 min a 55 min )
+
+        Asi hago flotar el elemento, mi elemento se sale del flujo html  y empieza a flotar. 
+
+        Con el position absolute va a hacer que mi elemento ocupe de ancho lo que su contenido requiere.
+
+
+
+    Elemento Ojito flotando ( 46 min a  )
+
+        Aplicamos position: absolute display flex para centrar ojito.
+
+        Aplico transition: all 0.3s ease
+
+
+
+    Elemento Añadir al carrito ( 1:09 hs a  )
+
+        Aplico position absolute para que el elemento flote encima d ela imagen
+
+
  **************************************************************************************
 
 Clase 16
