@@ -44,7 +44,10 @@ Clase 15
 
     Elemento Añadir al carrito ( 1:09 hs a  )
 
-        Aplico position absolute para que el elemento flote encima d ela imagen
+        Aplico position absolute para que el elemento flote encima de la imagen
+
+    
+        
 
 
  **************************************************************************************
