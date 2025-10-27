@@ -73,15 +73,25 @@ Clase 15
 
 
 
-    Footer ( 2:08 hs )
-
-
+    Footer ( 2:08 hs a fin )
 
 
 
  **************************************************************************************
 
 Clase 16
+
+
+    Media screen and (width >= 768px) ( 6 min a  )
+
+
+
+    Tabla de productos Admin ( 30 min a  )
+
+        
+
+
+
 
 
 
