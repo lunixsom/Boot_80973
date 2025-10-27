@@ -42,12 +42,41 @@ Clase 15
 
 
 
-    Elemento Añadir al carrito ( 1:09 hs a  )
+    Elemento Añadir al carrito ( 1:09 hs a 1:18 hs )
 
         Aplico position absolute para que el elemento flote encima de la imagen
 
+
+
+    Nesting/Anidamiento dentro de CSS nativo ( 1:23 hs a  )
+
+        .product-card-body{
+            padding: 1rem;
+
+            .product-category{
+                backgound-color: red;
+
+                span{
+                    color: blue;
+                }
+            }
+        }
+
     
-        
+
+    Animaciones card ( 1:50 hs a  )
+
+        Primero convetimos en clickeable la imagen cambiando el contenedor de div a <a>
+
+        Animacion botones
+
+
+
+
+    Footer ( 2:08 hs )
+
+
+
 
 
  **************************************************************************************
