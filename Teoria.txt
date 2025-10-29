@@ -86,11 +86,26 @@ Clase 16
 
 
 
+
     Tabla de productos Admin ( 30 min a  ) 
 
 
+        Estilizar IMG en celda tabla ( 55 min )
+
+            Aplico width y height especificos y lueog aplico object-fit: cover
 
 
+        Acortar texto campo Descripcion ( 58 min )
+
+            Una forma para acortar el texto a 3 lineas y que el resto se esconda para que mi tabla no se deforme:
+
+            Usamos un display: -webkit-box y la propiedad -webkit-line-clamp: 3 y la propiedad line-clamp:3 y la propiedad -webkit-box-orien: vertical y la propiedad overflow:hidden
+
+
+
+        
+
+        
 
 
 
