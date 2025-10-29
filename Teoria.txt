@@ -96,15 +96,30 @@ Clase 16
 
 
         Acortar texto campo Descripcion ( 58 min )
+            
+            Esto hay que usarlo en una etiqueta <p>
 
             Una forma para acortar el texto a 3 lineas y que el resto se esconda para que mi tabla no se deforme:
 
             Usamos un display: -webkit-box y la propiedad -webkit-line-clamp: 3 y la propiedad line-clamp:3 y la propiedad -webkit-box-orien: vertical y la propiedad overflow:hidden
 
+        
+
+    Usamos Modal cuando cargamos un producto ( 1:50 hs )
+
+        Solo va tener un parrafo adentro el modal por ahora.
+
+
+
+
+    Uso de Github Copilot ( 2:05 hs )
+
 
 
         
+ **************************************************************************************
 
+Clase 17
         
 
 
