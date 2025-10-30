@@ -130,6 +130,25 @@ Clase 17
 Clase 26
 
 
-JS ARRAY
+Consulta Alumno sobre el Integrador 1 ( 6 min a 22 min )
 
-JS Objetos
+
+JS ARRAY ( 25 min a 58 min )
+
+    Metodos comunes en Array 
+
+        push (agrega al final del array)
+        unshift (agregar un elemento al inicio del array)
+        pop (elimina el ultimo elemento de mi array)
+        shift ( eliminar el primer elemento del array)
+
+        splice(2,1, "sustituto") (sirve para borrar o sustituir)
+            se usa asi mas: splice(2,1) (elimina la posicion 2)
+
+
+
+
+
+JS Objetos ( 1:04 hs a  )
+
+    
