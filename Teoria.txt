@@ -149,6 +149,24 @@ JS ARRAY ( 25 min a 58 min )
 
 
 
-JS Objetos ( 1:04 hs a  )
+JS Template Strings ( 1:04 hs a 1:23 hs )
 
+
+JS Objetos ( 1:28 hs a  )
+
+    Formas de acceder a los valores de propiedades de un Objeto:
+
+        objeto.nombre
+        objeto["nombre principal"]
+
+    Agregar una nueva propiedad al objeto:
+
+        objeto.nuevaPropiedad = 1234
     
+
+
+ **************************************************************************************
+
+Clase 27
+
+
