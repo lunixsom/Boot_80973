@@ -170,3 +170,4 @@ JS Objetos ( 1:28 hs a  )
 Clase 27
 
 
+Explicacion Desafio JS ( 0 a 35 min )
