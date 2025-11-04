@@ -174,6 +174,25 @@ Explicacion Desafio JS ( 0 a 35 min )
 
 
 
-Bucles JS ( 45:30 min a  )
+Bucles JS ( 45:30 min a 1:12 hs )
+
+    WHILE (tiene que tener un maximo y un incrementador que me corte el bucle )
+
+    DO WHILE ( 1:45 hs )
+
+
+    FOR ( 1:53 hs )
+
+
+
+
+Uso de DEBUGGER ( 2:04 hs )
+
+
+
+
+Variables LET y CONST ( 1:13 hs a  )
+
+    LET: variables block scope, basicamente estan alcanzadas por el bloque que las contiene, lo cual significa que fuera del bloque no puedo acceder a la variable block scope.
 
 
