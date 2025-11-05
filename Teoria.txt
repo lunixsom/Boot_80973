@@ -196,3 +196,17 @@ Variables LET y CONST ( 1:13 hs a  )
     LET: variables block scope, basicamente estan alcanzadas por el bloque que las contiene, lo cual significa que fuera del bloque no puedo acceder a la variable block scope.
 
 
+
+
+
+ **************************************************************************************
+
+Clase 28
+
+
+    FALSY ( 15 min a 20 min )
+
+
+    
+
+
