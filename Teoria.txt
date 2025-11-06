@@ -207,6 +207,18 @@ Clase 28
     FALSY ( 15 min a 20 min )
 
 
-    
+    Break y Continue ( 35 min a 44 min )
+
+
+
+    for (let marca of masrcasFormula1) ( 1:29 hs )
+
+        
+
+
+
+ **************************************************************************************
+
+Clase 29
 
 
