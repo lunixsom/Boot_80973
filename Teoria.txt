@@ -234,6 +234,17 @@ Clase 28
 Clase 29
 
 
-Repaso Bucles ( 40 min a  )
+Repaso Bucles ( 40 min a 42 min )
+
+
+
+Funciones en JS ( 43 min a  )
+
+    
+
+
+
+
+
 
 
