@@ -240,7 +240,11 @@ Repaso Bucles ( 40 min a 42 min )
 
 Funciones en JS ( 43 min a  )
 
-    
+    ¿que es una funcion?
+
+    ¿que es una parametro de entrada?
+
+
 
 
 
