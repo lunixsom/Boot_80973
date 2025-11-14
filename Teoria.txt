@@ -244,7 +244,11 @@ Funciones en JS ( 43 min a  )
 
     ¿que es una parametro de entrada?
 
-    
+
+
+    Funciones que retornan un valor ( 1:47:50 hs )
+
+        
 
 
 
