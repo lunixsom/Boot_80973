@@ -252,7 +252,14 @@ Funciones en JS ( 43 min a  )
 
  **************************************************************************************
 
- Clase 30
+ Clase 34
+
+
+ Repaso de Funciones ( 3 min a 6 min )
+
+
+Definicion Funcion como expresion usando arrow function ( 7 min a  )
+
 
  
 
