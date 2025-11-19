@@ -261,8 +261,9 @@ Funciones en JS ( 43 min a  )
 Definicion Funcion como expresion usando arrow function ( 7 min a 18 min )
 
 
+Practica con una Lista de Tareas ( 40 min a  )
 
-
+    
 
  
 
