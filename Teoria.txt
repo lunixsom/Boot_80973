@@ -269,6 +269,9 @@ Practica con una Lista de Tareas ( 40 min a  )
 
         Nos traemos el link de fontawesome de cdnjs
 
+
+    Interaccion de JS con HTML ( 1:28 hs  )
+
     
 
 
