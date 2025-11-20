@@ -265,6 +265,14 @@ Practica con una Lista de Tareas ( 40 min a  )
 
     Armamos esquema html y css
 
+    Usamos Fontawesome para los iconos de los botones ( 1:10 hs )
+
+        Nos traemos el link de fontawesome de cdnjs
+
+    
+
+
+
 
  
 
