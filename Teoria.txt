@@ -273,7 +273,9 @@ Practica con una Lista de Tareas ( 40 min a  )
     Interaccion de JS con HTML ( 1:28 hs  )
 
     
+        innerHTML ( 1:39 hs )
 
+        
 
 
 
