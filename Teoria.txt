@@ -277,7 +277,7 @@ Practica con una Lista de Tareas ( 40 min a  )
 
         ¿Por que los scripts de JS se ponen antes al final anes de cerrar el body?
 
-        
+            Sino tambien se puede poner al principio pero hay que agregarle el atribuo clave "defer" que lo que hace es que una vez que el documento se haya cargado por completo recien ahi va ejecutar el script.  
 
 
 
@@ -285,7 +285,9 @@ Practica con una Lista de Tareas ( 40 min a  )
 
 
 
+ **************************************************************************************
 
+ Clase 35
 
 
 
