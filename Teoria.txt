@@ -275,6 +275,8 @@ Practica con una Lista de Tareas ( 40 min a  )
     
         innerHTML ( 1:39 hs )
 
+        ¿Por que los scripts de JS se ponen antes al final anes de cerrar el body?
+
         
 
 
