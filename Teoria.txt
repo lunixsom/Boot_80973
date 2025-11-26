@@ -295,5 +295,16 @@ Practica con una Lista de Tareas ( 40 min a  )
 
     Se usa para soluciones simples en las que necesite tomar una decision entre 2 alternativas 3 como maximo sino vamos con un if else comun.
 
-    
-  
+
+ 
+ Eventos directos sobre el HTML ( 1:07 hs )
+
+    No se recomienda mucho poner eventos directo sobre le hml porque teno limitaciones como la de poner que mas eventos se disparen.
+
+
+ Eventos sobre JS - ADDEVENTLISTENER ( 1:09 hs )
+
+    Significa que voy a estar escuchando algun evento que suceda sobre el boton o elemento html en cuestion.
+    Entonces tomo el boton y voy a añadirle una escucha de algun evento que yo quiero que suceda.
+
+
