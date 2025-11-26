@@ -296,3 +296,4 @@ Practica con una Lista de Tareas ( 40 min a  )
     Se usa para soluciones simples en las que necesite tomar una decision entre 2 alternativas 3 como maximo sino vamos con un if else comun.
 
     
+  
