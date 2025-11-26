@@ -307,4 +307,4 @@ Practica con una Lista de Tareas ( 40 min a  )
     Significa que voy a estar escuchando algun evento que suceda sobre el boton o elemento html en cuestion.
     Entonces tomo el boton y voy a añadirle una escucha de algun evento que yo quiero que suceda.
 
-
+  
