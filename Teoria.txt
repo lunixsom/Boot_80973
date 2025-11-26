@@ -289,6 +289,8 @@ Practica con una Lista de Tareas ( 40 min a  )
 
  Clase 35
 
+En esta clase vemos como cargar tareas a traves del formulario al array que tengo como base.
+
 
 
  Operador Ternario ( 14 min a )
@@ -308,3 +310,8 @@ Practica con una Lista de Tareas ( 40 min a  )
     Entonces tomo el boton y voy a añadirle una escucha de algun evento que yo quiero que suceda.
 
   
+ Objeto event ( 1:32 hs )
+
+    Tiene informacion del evento que ejecute.
+
+ 
