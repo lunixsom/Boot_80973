@@ -315,3 +315,6 @@ En esta clase vemos como cargar tareas a traves del formulario al array que teng
     Tiene informacion del evento que ejecute.
 
  
+    Creamos tarea en ejecucion de evento y la agregamos al array de tareas.
+
+    Renderizamos la lista de tareas en el HTML.  
