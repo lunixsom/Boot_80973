@@ -333,6 +333,7 @@ En esta clase vemos como cargar tareas a traves del formulario al array que teng
 
 
 
+
   Metodos Arrays ( 12:30 min a  )
     
     
@@ -344,4 +345,12 @@ En esta clase vemos como cargar tareas a traves del formulario al array que teng
             console.log(movie.title)
         })
 
-    
+    Tambien podemos ponerle una variable de indice y que imprima el array completo, si lo llego a necesitar: movies.forEach((movie, index, arrayCompleto) =>{ ... })
+
+
+
+  Operador OR (39 min )
+
+
+  
+
