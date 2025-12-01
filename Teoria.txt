@@ -327,4 +327,11 @@ En esta clase vemos como cargar tareas a traves del formulario al array que teng
  Clase 36
 
 
- 
+  Marcar como tarea completada al hacer el check ( 3 min a  )
+
+    La propiedad completed deberia cambiar.
+
+
+
+  Metodos Arrays ( 12:30 min a  )
+    
