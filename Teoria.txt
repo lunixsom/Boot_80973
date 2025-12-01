@@ -335,3 +335,13 @@ En esta clase vemos como cargar tareas a traves del formulario al array que teng
 
   Metodos Arrays ( 12:30 min a  )
     
+    
+    Otro metodo que nos ayuda a iterar nuestro array: forEach
+     
+     Va a ejecutar una funcion por cada elemento
+
+        movies.forEach((movie) => {
+            console.log(movie.title)
+        })
+
+    
