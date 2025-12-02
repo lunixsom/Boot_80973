@@ -367,5 +367,5 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
         FILTER espera por cada elemento del array que devolvamos (return) rue o false
 
-    
+        FILTER siempre esta esperando que le retornes o un true o false
 
