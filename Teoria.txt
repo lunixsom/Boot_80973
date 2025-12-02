@@ -337,20 +337,35 @@ En esta clase vemos como cargar tareas a traves del formulario al array que teng
   Metodos Arrays ( 12:30 min a  )
     
     
-    Otro metodo que nos ayuda a iterar nuestro array: forEach
+    * Otro metodo que nos ayuda a iterar nuestro array: forEach (a veces se utiliza mas que el for of)
      
-     Va a ejecutar una funcion por cada elemento
+        Va a ejecutar una funcion por cada elemento
 
-        movies.forEach((movie) => {
-            console.log(movie.title)
-        })
+            movies.forEach((movie) => {
+                console.log(movie.title)
+            })
 
-    Tambien podemos ponerle una variable de indice y que imprima el array completo, si lo llego a necesitar: movies.forEach((movie, index, arrayCompleto) =>{ ... })
-
-
-
-  Operador OR (39 min )
+        Tambien podemos ponerle una variable de indice y que imprima el array completo, si lo llego a necesitar: movies.forEach((movie, index, arrayCompleto) =>{ ... })
 
 
-  
+
+        Operador OR (39 min )
+
+
+
+CONCEPTO de pasaje por REFERENCIA y VALOR ( 55 min )
+
+
+MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
+
+
+
+
+    * Metodo FILTER ( 1:05 hs a  )
+
+        Me filtra un array segun una condicion y me genera un NUEVO array.
+
+        FILTER espera por cada elemento del array que devolvamos (return) rue o false
+
+    
 
