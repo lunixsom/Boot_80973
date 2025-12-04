@@ -373,8 +373,30 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
 
 
-    * Metodo MAP ( 1:37 hs a  )
+    * Metodo MAP ( 1:37 hs a 1:48:30 hs )
 
-        El metodo MAP me permite transformar los elementos de un array y devolver un nuevo array con todos los elementos transformados. 
+        El metodo MAP me permite generar un NUEVO array con valores completamente diferentes a los que tiene mi array original. No modifico el array original.
 
         Algunos lo utilizan para iterar un array pero para eso mejor usar forEach.
+
+         
+
+    * Metodo FIND ( 1:49 hs a  )
+    
+        Me permite buscar un unico elemento dentro de un array y me va devolver ese elemento que cumple con la condicion de busqueda.
+
+
+
+
+    En MAP, FILTER y FIND puedo acceder a la posicion del elemento, agregando un segundo campo index.
+
+
+
+
+ **************************************************************************************
+
+ Clase 37
+
+
+
+ 
