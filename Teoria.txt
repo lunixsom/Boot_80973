@@ -403,5 +403,19 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
         Me permite buscar un elemento dentro de un array y me devuelve el indice del primer elemento que cumple con la condicion.
 
+        Sirve por ejemplo para borrar un elemento del array, habiendo obtenido la posisición del elemento, puedo eliminarlo del array usando splice.
+
 
         
+    * Metodo EVERY ( 34 min )
+
+             No es algo tan comun  de usar.
+
+    
+    * Metodo SOME ( 40 min )
+
+
+
+    *Metodo Sort ( 41 min )
+
+        Me permite ordenar los elementos de un array segun una condicion que oy defina.  
