@@ -337,8 +337,10 @@ En esta clase vemos como cargar tareas a traves del formulario al array que teng
   Metodos Arrays ( 12:30 min a  )
     
     
-    * Otro metodo que nos ayuda a iterar nuestro array: forEach (a veces se utiliza mas que el for of)
+    * Metodo forEach (a veces se utiliza mas que el for of)
      
+        Sirve para ITERAR el array
+
         Va a ejecutar una funcion por cada elemento
 
             movies.forEach((movie) => {
@@ -361,7 +363,7 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
 
 
-    * Metodo FILTER ( 1:05 hs a  )
+    * Metodo FILTER ( 1:05 hs a 1:36 hs )
 
         Me filtra un array segun una condicion y me genera un NUEVO array.
 
@@ -369,3 +371,10 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
         FILTER siempre esta esperando que le retornes o un true o false
 
+
+
+    * Metodo MAP ( 1:37 hs a  )
+
+        El metodo MAP me permite transformar los elementos de un array y devolver un nuevo array con todos los elementos transformados. 
+
+        Algunos lo utilizan para iterar un array pero para eso mejor usar forEach.
