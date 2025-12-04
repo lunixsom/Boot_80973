@@ -399,4 +399,9 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
 
 
- 
+    * Metodo findIndex ( 6:30 min a  )
+
+        Me permite buscar un elemento dentro de un array y me devuelve el indice del primer elemento que cumple con la condicion.
+
+
+        
