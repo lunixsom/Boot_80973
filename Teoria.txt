@@ -416,6 +416,52 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
 
 
-    *Metodo Sort ( 41 min )
+    * Metodo REVERSE ( 42 min )
 
-        Me permite ordenar los elementos de un array segun una condicion que oy defina.  
+        Sirve para voltear el orden de un array. IMPORTANTE este metodo modifica directamente el array original.
+
+
+
+    *Metodo Sort ( 43 min )
+
+        Me permite ordenar los elementos de un array en base a un criterio. IMPORTANTE este metodo modifica directamente el array original.
+
+            Ordenamiento de MENOR A MAYOR, ascendente:
+
+                        numeros.sort(() => {
+                            return a - b
+                        })
+
+                        movies.sort((a, b) => {
+                            return b.score - a.score
+                        })
+
+
+            Ordenamiento de MAYOR A MENOR, descendente:
+
+                        numeros.sort(() => {
+                            return b - a
+                        })
+
+
+        Para ordenar textos en el return ponemos:
+
+            return b.title.localeCompare(a.title)
+
+    
+
+    * Metodo toSorted
+
+        Me da un array nuevo ordenado. No modifica el array original.
+
+
+    
+    * Metodo includes ( 1:06 hs )
+
+        En los textos hace un match parcial
+
+        En arrays busca que sea completamente igual el elemnto que estoy buscando.
+
+    
+
+    
