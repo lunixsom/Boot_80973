@@ -464,4 +464,47 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
     
 
+    * Otra forma de crear un array ( 1:12:30 hs )
+
+        new Array(10)
+
+
     
+    * Metodo FILL ( 1:13 hs )
+
+        new Array(10).fill("hola")
+
+
+
+    * Metodo CONCAT ( 1:14 hs )
+
+        Sirve para unir dos arrays
+
+            const arrayConbinado = numeros2.concat(numeros1)
+
+        
+
+
+    * Metodo JOIN ( 1:14:45 hs )
+
+        Transformo odos lo valores del array en un string que pueden esar separados segun lo que yo indique en los parentesis:
+
+            arrayCombinado.join(" - ")
+
+
+    * Metodo SPLIT ( 1:15:50 hs )
+
+        En los textos yo puedo separar los caracteres y formar un array: "texto".split("")
+
+
+
+
+    * Continuamos con la aplicacion todo-list ( 1:23 hs )
+
+        * Funcion EliminarTarea ( 1:37 hs )
+
+        
+
+
+
+
