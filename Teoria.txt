@@ -518,4 +518,41 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
  Clase 38
 
-        
+    Solucion a setear id al crear una tarea desde el formulario ( 12 min a   )
+
+            Al crear la tarea tambien creamos el campo id con Date.now()
+            
+            Usamos la libreria de crypto.randomUUID() que es una libreria integrada a javascript.
+
+            Tambien podemos usar Date.now() -> ES EL QUE VAMOS A USAR PARA EL EJERCICIO.
+
+
+
+
+    Funcionalidad CAMBIAR ESTADO DE TAREA ( 29 min a 39 min )
+
+
+
+
+
+    Funcionalidad EDITAR una tarea ( 41 min a  )
+
+        Logica para editar la tarea:
+
+            Buscar la tarea en el array por su id -> find
+            Llenar el formulario con los datos de la tarea encontrada
+            Asignar un valor a la variable isEditing para saber que estamos editando
+
+                Necesitamos transformar el formato del campo fecha al formato AAAA-MM-DD:
+
+                    "20-11-2023".split("-")
+
+                    ['20','11','2023'].reverse()
+
+                    ['2023','11','20'].join("-")
+
+            
+
+
+
+
