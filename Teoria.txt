@@ -504,7 +504,18 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
         * Funcion EliminarTarea ( 1:37 hs )
 
         
+            * Eliminar un grupo de tareas con checked ( 1:53 hs a )
 
 
+            * Borrar la tarea ( 2:04 hs )
+
+                TODOS.splice(indicePelicula, 1)
+
+        
 
 
+ **************************************************************************************
+
+ Clase 38
+
+        
