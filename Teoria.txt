@@ -562,8 +562,11 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
             Quiero desarrollar una función para ordenar mi lista de tareas en base al title ya sea de forma acendente o descendente me puedes ir guiando ya que necesito aprender a escribir y generar el codigo.
 
-            
 
+
+        Ordenar por botones ascendentes y descendentes ( 1:37 hs )
+
+            
 
 
 
