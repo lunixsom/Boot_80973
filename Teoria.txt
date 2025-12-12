@@ -551,6 +551,17 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
                     ['2023','11','20'].join("-")
 
+
+
+        Cambio texto boton para editar 
+
+
+        Prompt a IA  ( 1:30 hs )
+
+            En modo Ask con GPT-5.1(Preview)
+
+            Quiero desarrollar una función para ordenar mi lista de tareas en base al title ya sea de forma acendente o descendente me puedes ir guiando ya que necesito aprender a escribir y generar el codigo.
+
             
 
 
