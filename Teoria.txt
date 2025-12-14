@@ -568,5 +568,30 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
             
 
+    Uso de IA Generativa ( 1:44 hs )
 
+        En modo "Agent" con "Claude Sonnet 4.5" o "Gemini 3 Pro (Preview)" 
+
+        Lo malo de Agent es que es muy invasivo para consultas la mejor es el modo "Ask"
+
+
+
+    Creamos Filtro para busqueda de tareas ( 1:54 hs ) 
+
+    
+        Diferencia entre querySelector y getElemetById ( 2:00 hs )
+
+
+            Con querySelector tengo mas versatilidad para encontrar diferentes elementos o elementos que no tengan id.
+            querySelector me encuentra un solo elemento o el primero de muchos.
+
+
+
+
+
+ **************************************************************************************
+
+ Clase 39
+
+    
 
