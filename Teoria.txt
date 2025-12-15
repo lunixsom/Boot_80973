@@ -566,7 +566,7 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
         Ordenar por botones ascendentes y descendentes ( 1:37 hs )
 
-            
+
 
     Uso de IA Generativa ( 1:44 hs )
 
@@ -594,4 +594,31 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
  Clase 39
 
     
+    Manejo de CLases en DOM desde JS ( 5 min a 17 min )
 
+        Metodo para añadir un clase: elemento.classlist.add("nombreClase")
+
+        Metodo para eliminar una clase: elemento.classlist.remove("nombreClase")
+
+        Metodo para alternar una clase: elemento.classlist.toggle("nombreClase")   
+
+        Metodo para consultar si contiene esa clase: if (elemento.classList.contains("nombreClase"))
+
+        
+    
+    DOM querySelectorAll ( 21 min )
+
+        querySelectorAll(".nombreClase")
+
+        Me trae un array de elementos que tengan esa clase. 
+
+        Obtengo una lista de Nodos (NodeList)
+
+
+    DOM getElementsByClassName ( 28 min )
+
+        Obtengo coleccion de elementos HTML y no tengo la opcion para recorrer y acceder a los valores de la coleccion.
+
+        Este Metodo es mas viejo Y POR ESO "querySelectorAll" SERIA LA SOLUCION MAS ACORDE.
+
+        
