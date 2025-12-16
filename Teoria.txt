@@ -622,3 +622,10 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
         Este Metodo es mas viejo Y POR ESO "querySelectorAll" SERIA LA SOLUCION MAS ACORDE.
 
         
+
+    Atributo DATA a un elemento ( 38 min a  )
+
+        Son atributos que nosotros los podemos personalizar, son atributos que yo les voy a agregar un elemento pero que esos atributos me van a ayudar a mi a obtener informacion a partir de lo que es JS.
+
+        Se utilizan para enriquecer alguna informacion para yo poder acceder por JS.
+
