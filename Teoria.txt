@@ -643,6 +643,9 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
 
 
+    Agregar campo imagen ipo avatar ( 1:47 hs )
+
+         
 
     
 
