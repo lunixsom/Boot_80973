@@ -647,7 +647,10 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
          
 
-    
+
+    Usar el metodo innerHTML insertando un string que contiene todo el codigo hml no esta bueno, porque nos pueden hacer algun ataque de sitting scripting, noe es lo mejor hacer una insercion de elementos de esa forma.
+
+    El tema es que si tengo que hacerlo mediante el metodo createElement de document es un parto....
 
 
 
