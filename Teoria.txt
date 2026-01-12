@@ -594,7 +594,7 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
  Clase 39
 
     
-    Manejo de CLases en DOM desde JS ( 5 min a 17 min )
+    Manejo de Clases en DOM desde JS ( 5 min a 17 min )
 
         Metodo para añadir un clase: elemento.classlist.add("nombreClase")
 
@@ -643,16 +643,16 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
 
 
-    Agregar campo imagen ipo avatar ( 1:47 hs )
+    Agregar campo imagen tipo avatar ( 1:47 hs )
 
          
+    Ejemplo de como agregar JS (1:58 hs a )
 
-
-    Usar el metodo innerHTML insertando un string que contiene todo el codigo hml no esta bueno, porque nos pueden hacer algun ataque de sitting scripting, noe es lo mejor hacer una insercion de elementos de esa forma.
+    Usar el metodo innerHTML insertando un string que contiene todo el codigo html no esta bueno, porque nos pueden hacer algun ataque de sitting scripting, no es lo mejor hacer una insercion de elementos de esa forma.
 
     El tema es que si tengo que hacerlo mediante el metodo createElement de document es un parto....
 
-
+    
 
 
 
