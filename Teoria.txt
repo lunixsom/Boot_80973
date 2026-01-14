@@ -681,5 +681,44 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
     Truco en FLEX (1:18 hs)
         Sacamos el GRID para aplicar flex y solucionar el acomodamiento de los elementos.
-        
-        "flex:1" para que ocupe todo el espacio que sobre    
+
+        "flex:1" para que ocupe todo el espacio que sobre   
+
+
+    Expresion JS Avanzada adentro de un template string ( 1:25 hs )
+
+        ${
+            isDeletingMultiple  && `<div class="todo-clear">
+                <input type="checkbox">..
+                ..
+                .
+                </div>`
+        }
+
+
+    Principio/patron SOLID ( 1:37 hs)
+
+        Son 5 principios que por cada letra hay una definicion.
+
+
+
+    Codigo para Borrado multiple de tareas ( 1:40 hs a 1:56 hs) 
+
+
+
+    INTRO a MOCKAPI ( 2:05 hs )
+
+
+
+ **************************************************************************************
+
+ Clase 41
+
+ NO HUBO
+
+
+  **************************************************************************************
+
+ Clase 42
+
+ 
