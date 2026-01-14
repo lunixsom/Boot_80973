@@ -645,14 +645,13 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
     Agregar campo imagen tipo avatar ( 1:47 hs )
 
+
          
     Ejemplo de como Crear correctamente Elementos segun JS (1:58 hs a )
 
     Usar el metodo innerHTML insertando un string que contiene todo el codigo html no esta bueno, porque nos pueden hacer algun ataque de sitting scripting, no es lo mejor hacer una insercion de elementos de esa forma.
 
-    El tema es que si tengo que hacerlo mediante el metodo createElement de document es un parto....
-
-        Tengo que usar createElement y luego hacer cada cosa manualmente.
+    El tema es que si tengo que hacerlo mediante el metodo createElement de document es un parto.... Tengo que usar createElement y luego hacer cada cosa manualmente.
 
     
 
@@ -661,3 +660,21 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
  **************************************************************************************
 
  Clase 40
+
+
+ Como organizar tu codigo JS ( 13 min a  )
+
+    Variables globales y constantes (referencias)
+    Funcion que se utilze un monton
+    Listeners
+
+
+    Forma de trabajo interno de JS - Hoisting ( 23 min )
+
+
+    Repaso Variables Globales y Locales ( 26 min a 48 min )
+        Tener en cuenta cual es el scope(alcance) de esa variable, esa es la diferencia.
+
+
+    Extension "Better Comments" en VSCODE (1 hs)
+
