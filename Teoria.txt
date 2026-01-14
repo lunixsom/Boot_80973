@@ -664,7 +664,7 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
  Como organizar tu codigo JS ( 13 min a  )
 
-    Variables globales y constantes (referencias)
+    Variables globales y constantes (referencias al DOM)
     Funcion que se utilze un monton
     Listeners
 
@@ -678,3 +678,8 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
     Extension "Better Comments" en VSCODE (1 hs)
 
+
+    Truco en FLEX (1:18 hs)
+        Sacamos el GRID para aplicar flex y solucionar el acomodamiento de los elementos.
+        
+        "flex:1" para que ocupe todo el espacio que sobre    
