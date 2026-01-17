@@ -781,4 +781,84 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
         PROMESAS EN JS ( 1:15:30 hs a  )
 
 
+            Cuando trabajamos con Promesas lo mas interesante es ir a la pestaña de "NETWORK" de la herramienta del desarrollador de Chrome.
+
+            En la PROMESAS nosotros vamos a quedar a la espera de que esa promesa se resuelva satisfactoriamente o de manera negativa, osea que el servidor nos responde o no pudo obtener la data porque se demoro demasiado por que el servidor esta caido, o porque la peticion tiene un error o lo que pediste el servidor no sabe resolverlo.
+
+            Pero yo a traves de las PROMESAS PUEDO ESTABLECER UN CONTRATO ENTRE MI CODIGO DE JS Y EL SERVIDOR y entender que cuando ese contrato se cumpla significa que el servidor ya me respondio INDEPENDIENTEMENTE DEL TIEMPO QUE HAYA PASADO, sea nada casi o sea un monton lo que yo tenga que esperar.
+
+
+            Otro tarea que se puede considerar asincrona, en la cual nosostros no sabemos cuando va a suceder, es el LISTENER, JS no sabe cuando va a suceder esa tarea por eso es que lo trata asincronamente para continuar con las demas tareas que si puede resolver.
+
+
+            QUE ES UNA PROMESA ? (1:24:30 hs)
+
+                Por lo general no se llega a crear una promesa manualmente/artesanalmente (a mano). pero ahi va el ejemplo:
+
+                    let respuesta
+
+                    const promesa = new Promise((resolve, reject) => {
+                        setTimeout(() => {
+                            resolve("La promesa se ha cumplido")  || o tambien puede responder reject(1000)
+                        }, 2000)
+                    })
+
+
+                    promesa
+                        .then((valorResuelto) => {
+                            console.log("Promesa resuelta")
+                        })
+                        .catch((error) => {
+                            console.warn("hubo un error en la promesa")        
+                        })
+
+                    El metodo THEN se va ejecutar cuando la promesa se resuelva, a su vez la promesa tambien tiene la posibilidad de ejecutar un metodo catch() que es cuando la promesa se rechaze.
+                    Entonces yo tengo dos posibilidades o dos caminos a tomar. 
+
+                    En el catch cuando yo atrapo el error de la promesa, siempre voy a recibir un parametro que es el error.
+
+
+
+
+    Como hago para llamar desde JS a mi servidor ( 1:50:30 hs )
+
+        Esto igual despues con una libreria lo puedo hacer mas facil
+
+        const URL = "url de mockapi va aca"
+
+        fetch(URL)
+            .then((response) => responde.json())
+            .then((data) => {
+                console.log("Data obtenida de mocakpi.io:", data)
+            })
+            .catch((error) => {
+                console.log(error)
+            })
+
+
+            Tengo dos then al principio porque como trabaja el metodo json en el primer then me devuelve una promesa para volver leible el la respuesta de la promesa que viene en su body:
+
+                1° Espero la respuesta del servidor
+                2° Una vez que tengo la respuesta agarro la respuesta, ese Stream y lo transformo a un valor legible.
+                3° Hago la tarea que queria sobre esa respuesta del servidor.
+
+
+        
+        LIBRERIA AXIOS ( 2:02 hs )
+
+            Nos simplifica un poco las peticiones a servidores, no hace falta configurar el body con stringify y no tengo que transformar la respuesta.
+
+                axios.post(SERVER_URL, nuevoUsuario)
+                    .then(respuesta => {
+                        console.log(respuesta)
+                    })
+                    .catch(error => {
+                        console.log("Error con axios:", error)
+                    })
+
             
+
+
+  **************************************************************************************
+
+ Clase 43
