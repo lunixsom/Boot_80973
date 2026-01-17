@@ -721,4 +721,64 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
  Clase 42
 
- 
+
+    Continuamos con MOCKAPI ( 30 min )
+
+
+        ¿ Que es un Endpoint ? ( 38:30 min)
+
+            Son funcionalidades que nosotros vamos a habilitar desde nuestro servidor. 
+
+            Es un punto final, al cual yo puedo llamar y cuando lo llame a ese punto especificamente y de acuerdo a la forma (METODO) que lo llame, el servidor va entender que el tiene que hacer una u otra tarea.
+
+            Los metodos : GET POST PUT y DELETE
+
+
+
+
+    Asincronia en JS ( 50 min a 1:14 hs)
+
+        SetTimeout (1:02 hs)
+
+            Lo que hace es ejecutar la funcion (callback) luego de un tiempo determinado que yo fijo.
+
+
+            EJEMPLO:
+
+
+            console.time("sync")
+
+            console.log("Inicio de la ejecucion")
+
+
+            SetTimeout(()=>{
+                usuario = [
+                    { id: 1, nombre: "Juan"},
+                    { id: 1, nombre: "Maria"},
+                    { id: 1, nombre: "Pedro"},
+                ]
+            }, 5000)
+
+
+            console.log("USERS: ", usuarios)
+
+            console.log("Fin de la ejecucion")
+            
+            console.timeEnd("sync")
+
+
+            En el ejemplo veo que cuando intento imprimir en consola el valor de la variable "usuarios" me da UNDEFINED por la asincronia.
+
+
+            LA CUESTION ES ¿ COMO PUEDO SABER CUANTO VA A DEMORAR UNA PETICION ?
+
+                Como no se si mi peticion puede demorar mas o menos tiempo en responderse YO NO PUEDO USAR SETIMEOUT.
+
+
+                LA SOLUCION de JS son "LAS PROMESAS".
+
+        
+        PROMESAS EN JS ( 1:15:30 hs a  )
+
+
+            
