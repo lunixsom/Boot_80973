@@ -1,0 +1,111 @@
+body{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+h1{
+    text-align: center;
+}
+.Lista-contactos{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.Lista-contactos-agregar{
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    border-radius: 20px;
+    padding: 10px 25px;
+    border: 2px #CFCFCF solid;
+    margin-top:10px;
+    margin-bottom: 10px;
+    width: 1140px; max-width: 100%;
+    h2{
+        text-align: start;
+    }
+    .form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 25px auto;
+        gap:20px;
+        .form-contacto{
+            display: flex;
+            flex-direction: column;
+            gap:5px;
+            label{
+                font-size: 20px;
+            }
+            input{
+                border-radius: 10px;
+                height: 25px;
+                padding-left:10px;
+                outline: 1px solid #DEE2E6;
+                border: none;
+                font-size: 18px;
+            }
+            input:focus{
+                outline: 3px solid #CFCFCF;
+            }
+        }
+    }
+    button{
+        padding: 10px 15px;
+        color: white;
+        background-color: #0D6EFD;
+        border: none;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+}
+.Lista-contactos-tabla{
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 2px solid #CFCFCF;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0,0,0,.08);
+        td{
+            font-weight: 900;
+            text-align: center; 
+            font-size: 14px;
+        }
+        
+    }
+    tr:hover {
+    }
+    th:nth-child(1), td:nth-child(1) { width: 300px; } /* Nombre */
+    th:nth-child(2), td:nth-child(2) { width: 300px; } /* Email */
+    th:nth-child(3), td:nth-child(3) { width: 150px; } /* Teléfono */
+    th:nth-child(4), td:nth-child(4) { width: 170px; } /* Fecha */
+    th:nth-child(5), td:nth-child(5) { width: 250px; } /* Acciones */
+}
+tbody td{
+    label{
+        font-weight: 300;
+        font-size: medium;
+    }
+    .icono{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+    button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        border: #CFCFCF solid 2px;
+
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    .icono-editar{
+        background-color: #fff ;
+    }
+    .icono-eliminar{
+        background-color: red;
+        color: white;
+    }
+}

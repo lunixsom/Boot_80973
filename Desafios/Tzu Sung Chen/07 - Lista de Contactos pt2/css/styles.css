@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "quicksand";
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 10rem;
+    object-fit: cover;
+  }
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.form-container {
+  display: flex;
+  padding: 0.5rem;
+  margin: 1rem;
+  gap: 3rem;
+}
+
+.add-contact {
+  display: flex;
+  flex-direction: column;
+  width: 25dvw;
+  border: 1px solid #03070a;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 1rem;
+  max-height: 85vh;
+  overflow-y: auto;
+  align-self: flex-start;
+  position: sticky;
+  top: 1rem;
+
+  h2 {
+    margin-right: auto;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-bottom: 1rem;
+    z-index: 10;
+  }
+
+  .btn-secondary {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+}
+
+.contact-filter {
+  width: 50%;
+  margin: 1rem 0;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+
+  .form-control {
+    width: 100%;
+  }
+}
+
+.input-btns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.contact-head {
+  display: flex;
+  gap: 1rem;
+
+  h2 {
+    margin: 0;
+  }
+}
+
+.contact-head .btn {
+  padding: 3px 6px;
+  line-height: 1px;
+}
+
+.contact-list {
+  width: 100%;
+}
+
+.contact-info {
+  border: 1px solid #03070a;
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  table {
+    width: 100%;
+
+    tr {
+      text-align: center;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+
+    th,
+    td {
+      padding: 0.2rem;
+    }
+  }
+}
+
+.img-cell img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.gotoup {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.gotoup i {
+  font-size: 2.5rem;
+  color: orange;
+}
+
+.gotoup i:hover {
+  font-size: 3rem;
+  color: darkorange;
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .add-contact {
+    width: 100%;
+  }
+}

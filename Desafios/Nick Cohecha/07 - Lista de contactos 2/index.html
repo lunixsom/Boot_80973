@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo 4 - LISTA DE CONTACTOS CON JS</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    
+
+    <h1>Lista de contactos</h1>
+    <div class="Lista-contactos">
+        <div class="Lista-contactos-agregar">
+            <h2>Agregar Nuevo Contacto</h2>
+            <form id="formulario">
+                <div class="form">
+                    <div  class="form-contacto">
+                        <label for="form-nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="form-nombre" required minlength="4" maxlength="30" placeholder="Pepito Perez">
+                    </div>
+                    <div class="form-contacto">
+                        <label for="form-email">Email</label>
+                        <input type="email" name="email" id="form-email" required minlength="5" placeholder="nombre@correo.com">
+                    </div>
+                    <div class="form-contacto">
+                        <label for="form-telefono">Teléfono</label>
+                        <input type="number" name="telefono" id="form-telefono" required placeholder="123456789">
+                    </div>
+                    <div class="form-contacto">
+                        <label for="form-fechaNacimiento">Fecha de Nacimiento</label>
+                        <input type="date"  name="fechaNacimiento" id="form-fechaNacimiento" required>
+                    </div>
+                </div>
+                <button type="submit" id="botonSubmit">Agregar Contacto</button>
+            </form>
+        </div>
+        <div class="Lista-contactos-tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Email</td>
+                        <td>Teléfono</td>
+                        <td>Fecha de Nacimiento</td>
+                        <td>Acciones</td>
+                    </tr>
+                </thead>
+                <tbody id="agregarElementos">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="/js/logica.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agenda de Contactos</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-5">
+  <h2 class="text-center mb-4">📒 Agenda de Contactos</h2>
+
+  <!-- FORMULARIO -->
+  <div class="card mb-4">
+    <div class="card-body">
+      <form id="contactForm">
+        <input type="hidden" id="contactId">
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">Nombre *</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">Email *</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">Teléfono *</label>
+            <input type="tel" class="form-control" id="phone">
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">Fecha de nacimiento *</label>
+            <input type="date" class="form-control" id="birthdate">
+          </div>
+
+          <div class="col-12">
+            <label class="form-label">Imagen (URL opcional)</label>
+            <input type="url" class="form-control" id="image">
+          </div>
+        </div>
+
+        <div class="mt-3 text-end">
+          <button class="btn btn-primary" type="submit" id="btnSubmit">
+            Guardar contacto
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <table class="table table-striped text-center">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Teléfono</th>
+            <th>Fecha Nac.</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="contactTable"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script src="contacts.js"></script>
+</body>
+</html>
