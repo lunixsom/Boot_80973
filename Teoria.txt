@@ -862,3 +862,10 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
   **************************************************************************************
 
  Clase 43
+
+Repaso clase anterior Asincronia ( 0 a 16:30 min )
+
+
+ Las PROMESAS son la solucion a los problemas de asincronia en JS
+
+ Las PETICIONES al servidor son importantes y las vamos a realizar a traves de las peticiones o las request HTTP.
