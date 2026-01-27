@@ -671,4 +671,4 @@ function setupEventListeners() {
     if (phoneField) phoneField.addEventListener('blur', validateFieldPhone);
     if (birthdateField) birthdateField.addEventListener('blur', validateFieldBirthdate);
     if (imageUrlField) imageUrlField.addEventListener('blur', validateFieldImageUrl);
-}d
+}

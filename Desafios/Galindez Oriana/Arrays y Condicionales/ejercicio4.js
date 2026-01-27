@@ -1,5 +1,5 @@
 
-let numeros = [23, 45, 12, 67, 34, 89, 21];
+let numeros = [23, 45, 12, 67, 34, 89, 221];
 
 let maximo = numeros[0]; 
 
