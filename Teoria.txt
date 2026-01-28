@@ -869,3 +869,43 @@ Repaso clase anterior Asincronia ( 0 a 16:30 min )
  Las PROMESAS son la solucion a los problemas de asincronia en JS
 
  Las PETICIONES al servidor son importantes y las vamos a realizar a traves de las peticiones o las request HTTP.
+
+    La forma nativa de hacer peticiones http es con fetch de JS
+
+    Pero es mas comun actualmente usar la libreria AXIOS porque su sintaxis es mucho mas amigable
+
+
+La Respuesta puntual esta en data del objeto response que me devuelve Axios.
+
+
+ ASYNC/AWAIT ( 19 min a )   
+
+
+    Usar then y catch esta bueno pero hoy en dia hay una solucion un poco mas moderna para esperar que una promesa se    resuelva.
+
+    Tambien para evitar los promise hell o callback hell se usa un metodo mas nuevo y amigable: ASYNC/AWAIT
+
+    Lo negativo de async await es que piero la posibilidad de detectar algun error para esto lo que se suele combinar con una funcion asincrona es la estructura/bloque TRY CATCH (que ojo no tiene siempre que usarse con peticiones, es una estructura nativa de JS)
+
+
+    TRY CATCH ( 58 min a 1:15 hs)
+
+        TRY CATCH con una funcion asincrona es una combinacion para lograr una mejor fluidez o un mejor manejo de mi codigo.
+
+        Lo interesante de esta estructura es que me atrapa el error que pueda acontecer en una peticion o en cualquier error que este adentro de la estructura y permite que JS siga ejecutandose sin tener que pincharse.
+
+        Cuando algo falla dentro de mi bloque TRY se dispara mi bloque CATCH que atrapa el error y la ejecucion del flujo continua y no se pincha, osea no me bloquea la ejecucion de mi codigo.
+
+
+
+    SetInterval ( 1:18 hs )
+
+        Ejecuta la funcion que este adentro cada cierto tiempo que seteamos nosotros:
+
+            setInterval(() =>{
+                console.log("Intervalo ejecutado")
+            }, 2000)
+
+
+    Aplicamos ASYNC/AWAIT a proyecto todo-list.js ( 1:24 hs a  )
+
