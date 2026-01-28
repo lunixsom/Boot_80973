@@ -863,6 +863,7 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
 
  Clase 43
 
+
 Repaso clase anterior Asincronia ( 0 a 16:30 min )
 
 
@@ -880,6 +881,7 @@ La Respuesta puntual esta en data del objeto response que me devuelve Axios.
 
  ASYNC/AWAIT ( 19 min a )   
 
+    IMPORTANTE: La palabra reservada "async" se le aplica a la funcion padre de "await"
 
     Usar then y catch esta bueno pero hoy en dia hay una solucion un poco mas moderna para esperar que una promesa se    resuelva.
 
@@ -909,3 +911,23 @@ La Respuesta puntual esta en data del objeto response que me devuelve Axios.
 
     Aplicamos ASYNC/AWAIT a proyecto todo-list.js ( 1:24 hs a  )
 
+
+        Cambiamos la funcionalidad obtenerTareas()
+
+        Cambiamos la funcionalidad agregarTarea()
+        
+
+        Cambiamos la funcionalidad eliminarTarea() ( 2:07 hs ) 
+
+            APLICAMOS Swal.fire para mejorar la interfaz o la estetica del cuadro de confirm y vemos que esta libreria tambien trabaja con promesas porque usamos then.
+
+
+        
+
+
+  **************************************************************************************
+
+ Clase 44
+
+
+ 
