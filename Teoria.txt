@@ -933,7 +933,45 @@ La Respuesta puntual esta en data del objeto response que me devuelve Axios.
  Clase 44
 
 
+
 Continuamos proyecto LIsta Tareas
 
 
+
 Aplicamos cambios en  editarTarea ( 0 min a 38 min )
+
+
+
+Arreglamos los check con los nuevo cambios aplicados en cambiarEstadoTarea ( 41 min a  )
+
+    ESTO ES IMPORTANTE y se aplica a este punto y el anterior (editarTarea):
+
+        CUANDO YO QUIERO ACTUALIZAR ALGO NO HACE FALTA QUE MANDE TODO, PUEDO MANDAR SOLAMENTE LO QUE QUIERO ACTUALIZAR:
+
+            * await axios.put(`${SERVER_URL}/todos/${idRecibido}`,{ completed: !tarea.completed })
+
+
+
+
+Git Graph (1:04 hs)
+
+    Sirve para ver versiones de codigo anterior en Visual Studio Code de un proyecto clonado.
+
+
+
+React ( 1:09 hs a  )
+
+    La forma de crear un div con innerHTML con un string no es la forma correcta porque puede ser vulnerabilizado, osea recibir un ataque al cliente. (ESTA ES LA FORMA MENOS RECOMENDABLE)
+
+    Entonces vimos que la forma correcta era crear elemento por elemento desde JS con los metodos correctos como createElement y asi y programando los atributos, los elementos padres e hijos, los eventos, los botones, agregarle las clases y la logica necesaria lo cual es unica locura de codigo, seria larguisimo, EL PROBLEMA DE ESTO ES QUE SE VOLVIA ENGORROSO POR ESO NOS ERA MAS FACIL USAR EL STRING CON INNERHTML.
+
+
+
+    CON REACT ESTO SE HACE MUCHISIMO MAS SIMPLE.. SIN MALAS PRACTICAS QUE NOS DEJEN MAS EXPUESTOS A TENER UN ATAQUE DE XCSS (CROSS SIDE SCRIPT) ... no usamos string ni tampoco hay que hacer miles de lineas de codigo.
+
+
+
+
+
+
+
