@@ -864,6 +864,9 @@ MUTABILIDAD E INMUTABILIDAD EN JS ( 1 hs a 1:05 hs )
  Clase 43
 
 
+EN ESTA CLASE VEMOS PROMESAS
+
+
 Repaso clase anterior Asincronia ( 0 a 16:30 min )
 
 
@@ -930,4 +933,7 @@ La Respuesta puntual esta en data del objeto response que me devuelve Axios.
  Clase 44
 
 
- 
+Continuamos proyecto LIsta Tareas
+
+
+Aplicamos cambios en  editarTarea ( 0 min a 38 min )
