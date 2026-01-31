@@ -959,7 +959,7 @@ Git Graph (1:04 hs)
 
 
 
-React ( 1:09 hs a  )
+React ( 1:09 hs a  )  -- COMIENZO MODULO 3
 
     La forma de crear un div con innerHTML con un string no es la forma correcta porque puede ser vulnerabilizado, osea recibir un ataque al cliente. (ESTA ES LA FORMA MENOS RECOMENDABLE)
 
@@ -969,6 +969,48 @@ React ( 1:09 hs a  )
 
     CON REACT ESTO SE HACE MUCHISIMO MAS SIMPLE.. SIN MALAS PRACTICAS QUE NOS DEJEN MAS EXPUESTOS A TENER UN ATAQUE DE XCSS (CROSS SIDE SCRIPT) ... no usamos string ni tampoco hay que hacer miles de lineas de codigo.
 
+
+
+    Instalamos NODE.JS
+
+
+    Boilerplate ( 1:58 hs a  )
+
+        Es la estructura base o el setup mas basico o comun de un proyecto. En nuestro caso vamos a usar VITE.
+
+
+    Creamos proyecto con el servidor de VITE (2:01 hs)
+
+        npm create vite@
+        
+
+        Seleccionamos las opciones:
+
+                                React
+                                Javascript + SWC (porque usa un motor que va a hacer que la compilacion sea mas rapida)
+                                Use rolldown-vite (Expermiental) -> NO
+                                Install with npm and start now -> YES
+        
+
+
+
+
+  **************************************************************************************
+
+ Clase 45
+
+
+
+    Iniciar proyecto (3 min)
+
+        con comando: npm run dev
+
+    
+    Instalamos extension Eslint en VSCode (24 min)
+
+
+    
+     
 
 
 
