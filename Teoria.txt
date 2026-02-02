@@ -1008,11 +1008,51 @@ React ( 1:09 hs a  )  -- COMIENZO MODULO 3
     
     Instalamos extension Eslint en VSCode (24 min)
 
+        Sirve para marcarme errores en mi codigo.
 
+
+
+    Tree shaking (46:30 min)
+
+        Me permite filtrar recursos de una libreria de manera que en mi proyecto final solo tenga lo que este utilizando.
+
+        Por ejemplo: Cuando uso Fontawesome quizas uso 20 iconos en mi proyecto pero la herramienta viene con miles de iconos y estos se cargan cuando ejecuto mi proyecto y pueden afectar la performance. Tree shaking me permite solo cargar en mi proyecto lo que este usando de Fontawesome.
+
+
+    
+    Palabras clave que cambian en React por conflictos con JS (1:34 hs)
+
+        Hay palabras que tienen otro nombre en React porque se usan en JS como class y for de label, serian className y htmlFor
+
+
+
+    Usamos React Fragment (2:03 hs) 
+
+
+    Creamos primer componente (2:08 hs)
+
+        function Title(){
+
+            return(
+                <>
+                <h1>Component Title</h1>
+                <hr />
+                <h2>Subtitulo del componente</h2>
+                </>
+            )
+        }
+
+        export default Title
     
      
 
 
+  **************************************************************************************
+
+ Clase 46
+
+
+ 
 
 
 
