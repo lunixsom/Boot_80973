@@ -1052,8 +1052,17 @@ React ( 1:09 hs a  )  -- COMIENZO MODULO 3
  Clase 46
 
 
- 
+    PROPS (19 min)
 
+        Son propiedades, datos que cuando yo llame al componente le voy a enviar.
+
+ 
+            function Title(props) {
+
+                return(
+                    <h1> {props.titulo} </h1>
+                )
+            }
 
 
 
