@@ -1051,6 +1051,8 @@ React ( 1:09 hs a  )  -- COMIENZO MODULO 3
 
  Clase 46
 
+En esta clase seguimos trbaajando con Componentes en React, props y como hacer copias de un objeto, con spread operator.
+
 
     PROPS (19 min)
 
@@ -1073,6 +1075,8 @@ React ( 1:09 hs a  )  -- COMIENZO MODULO 3
     
     PINTAR DE MANERA CONDICIONAL ( 58 min )
 
+        A traves de una expresion {}
+
 
     OTRA MEJORA DE REACT ES:
 
@@ -1084,6 +1088,67 @@ React ( 1:09 hs a  )  -- COMIENZO MODULO 3
 
     Destructuring ( 1:07 hs )
 
-        Desestructurar un elemento con JS
+        Uso destructuring para extraer las props. Entonces yo directamente puedo destructurar los valores que me pueden llegar en el encabezado de la funcion.
 
+        Desestructurar un elemento con JS para crear de manera mas rapida variables de las propiedades de un objeto.
+
+
+        const usuario = {
+            name: "Pepe",
+            lastName: "Garcia",
+            age: 25,
+            email: "pepe@gmail.com",
+            vip: true,
+        }
+
+        const { age, name, email } = usuario
+
+    . Tambien puedo cambiarle el nombre al hacer destructuring:
+
+
+                        const { name: nombre, age, email } = usuario 
+
+
+    . Tambien se puede hacer destructuring en Arrays:
+
+
+                        const numeros = [ 1, 54, 20 ]
+
+                        const [ primero, unNombre ] = numeros
+
+
+    . Tambien se pueden obviar valores que no necesite:
+
+
+                        const [ primero, , ultimo ] = numeros
+
+
+
+
+    . OPERADOR DE PROPAGACION al desestructurar / SPREAD OPERATOR ( 1:38 hs )
+
+            const { name, age, ...restoPropiedades } = usuario
+            
+            El resto de las propiedades que no use van a quedar asignadas a la variable "restoPropiedades", lo mismo puedo aplicar a los arrays.
+
+
+
+    Recordamos el concepto de tipos de datos por REFERENCIA ( 1:43 hs )
+
+        Para poder romper esa referencia (que dos identificadores miren al mismo lugar, espacio en memoria) y crear una copia de ese array aparte, se le llama COPIA SHALLOW:
+
+        1) la mejor forma:
+
+            const array1 = [1,2,3]
+
+            const array2 = [ ...array1]
+
+        2) otra forma no an usada:
+
+            const array3 = array1.slice()
+
+
+        3) otra forma:
+
+            const array4 = array1.map(val => val)
 
