@@ -1152,3 +1152,18 @@ En esta clase seguimos trbaajando con Componentes en React, props y como hacer c
 
             const array4 = array1.map(val => val)
 
+
+
+
+Instalar EXTENSIONES para REACT en Chrome ( 1:59 hs )
+
+    React Developer Tools -> es muy utilizando
+
+        Me apaercen las nuevas opciones de "Components y Profiler" en el chrome dev tools
+
+
+
+
+  **************************************************************************************
+
+ Clase 47
