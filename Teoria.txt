@@ -1065,5 +1065,25 @@ React ( 1:09 hs a  )  -- COMIENZO MODULO 3
             }
 
 
+    NOTA IMPORTANTE: Si quiero enviar por props un valor que nosea un texto tengo que enviarlo adentro de {}:
+
+                                <Title titulo="Texto personalizado" subtitulo={100} />
+
+
     
+    PINTAR DE MANERA CONDICIONAL ( 58 min )
+
+
+    OTRA MEJORA DE REACT ES:
+
+                Puedo pintar de manera condicional algo:
+
+                                                        {props.subtitulo && <h2 className="subtitle"> {propiedades.subtitulo} </h2>}
+
+    
+
+    Destructuring ( 1:07 hs )
+
+        Desestructurar un elemento con JS
+
 
