@@ -1222,8 +1222,14 @@ Estados en React ( 10:30 min a  )
         
         La forma normal para crear un estado es:
 
+                    const [contador, setContador ] = useState(0)
 
-                    
+
+                    function incrementarContador(){
+                        setContador(contador + 1)
+                    }
+
+            React entiende que uno de los estados que el componente contador maneja se modifico con un nueov valor pero el entiende que tiene que volver a renderizar el componente.
 
 
 
