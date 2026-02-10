@@ -1206,9 +1206,27 @@ Estilos en linea en React ( 5 min )
 
 Estados en React ( 10:30 min a  )
 
-    No es una variable comun como la que podemos hacer, entonces lo que vamos a hacer un estado del componente cuando lo modifique React va entender que se modifico un estado de ese componente y tiene que volver a montarlo para actualizar algo.
+    No es una variable comun/convencional como la que podemos hacer, entonces lo que vamos a hacer un estado del componente cuando lo modifique React va entender que se modifico un estado de ese componente y tiene que volver a montarlo para actualizar algo.
 
 
-    
+    ¿Como hago? -> Hooks: son como lazos, una serie de utilidades o herramientas que nos van a permitir trabajar con algunas caracteristicas deReact en este caso para crear ESTADOS que ya viene en React.
+
+    Como creo un Estado:
+
+            import { useState } from "react";
+
+            const countState = useState(0) 
+
+            Lo primero que tengo que hacer es darle un valor inicial, en este caso va ser el valor "0"
+
+        
+        La forma normal para crear un estado es:
+
+
+                    
+
+
+
+
 
 
