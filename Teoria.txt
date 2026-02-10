@@ -1175,11 +1175,40 @@ Instalar EXTENSIONES para REACT en Chrome ( 1:59 hs )
 
     Jeremias 23:29
 
-    Al igual que un martillo quebranta rocas, la palabra de Dios rompe la dureza del corazon humano.
+    Al igual que un martillo tiene el poder de quebrantar duras rocas, la palabra de Dios tiene el poder de romper la dureza del corazon humano. pero cuando leemos, estudiamos, escuchamos su palabra quebranta nuestros pecados y ablanda nuestros corazones para con Dios.
     Cuando obedecemos su palabra, nos desanima a hacer lo malo.
     Tambien al igual que un martillo puede servir para edificar y dar forma, la biblia nos instruye y edifica en justicia (2° Timoteo 3:16 y 17)
     
-    Ezequiel 11:19 dice que todos tenemos como un corazon duro como piedra por causa de nuestros pecados 
-    Cuando estábamos separados de Dios con corazones endurecidos, nos era imposible agradarle. Tendíamos al egoísmo, la rebelión y el pecado. Con corazones nuevos somos declarados justos ante Dios ( 2 Corintios 5:21 )
+    Finalmente La biblia nos dice en Ezequiel 11:19 que por causa de ser rebeldes a Dios tenemos un corazon duro como piedra que nos separa de Dios y por lo cual es imposible agradarle. Pero Dios nos amo tanto que planeo la forma para que dejaramos de tener un corazon de piedra, el envio a su Hijo amado para recibir el castigo que mereciamos todos por la dureza de nuestros corazones, en Juan 3:16 dice que si creemos que Jesús recibio mi castigo en la cruz y luego le gano a la muerte resucitando entonces Dios me da un corazon nuevo que puede agradarle y darle las gracias.
+
 
     https://www.gotquestions.org/new-heart.html
+
+
+---------------------------------------------------------------------------------
+
+    Como trabajar con EVENTOS en React ( 1 min a  )
+
+    No tenemos que usar el ADDEVENTLISTENER que usabamos en JS sino que lo que hacemos en cierta forma es colocar el evento como si fuera un atributo en el componente:
+
+            <button onClick={ () => incrementarContador() }>Incrementar<button/>
+
+            <button onClick={ incrementarContador }>Incrementar<button/>
+
+
+
+Estilos en linea en React ( 5 min )
+
+   <h3 style={{margin:'20px', backgroundColor: 'green'}}>Titulo Principal</h3>
+
+
+
+
+Estados en React ( 10:30 min a  )
+
+    No es una variable comun como la que podemos hacer, entonces lo que vamos a hacer un estado del componente cuando lo modifique React va entender que se modifico un estado de ese componente y tiene que volver a montarlo para actualizar algo.
+
+
+    
+
+
