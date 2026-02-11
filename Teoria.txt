@@ -1247,8 +1247,43 @@ Estados en React ( 10:30 min a  )
 
 
              
+    React Router ( 1:33 hs )
 
+    React trabaja como si fuera una SPA (single page application) lo que significa es que React no actualiza toda la pagina, sino un componente .
+
+    Con React la NAVEGACION se hace a traves de un sistema de ROUTING usando la libreria React Router.
+
+    Esto hace que la pagina gane mucha agilidad.
+
+
+    Como se implementa el Router en React ? 
+
+
+        const LINKS = [
+            { text: "Home", url:""},
+            {},
+            {}
+        ]
             
+        {
+            LINKS.map((item, indice) => {
+                return(
+                    <li key={indice}>
+                        <a href={item.url}>{item.text}</a>
+                    </li>
+                )
+            })
+
+        }
+
+
+    ERROR sobre no tener key: EACH CHILD IN A LIST SHOULD HAVE A UNIQUE "KEY" PROP.
+
+
+    RECORDAR: al hacer un listado con map, el elemento padre si o si siempre tiene que tener una key, QUE PUEDE SER EL ID DE UN PRODUCTO O EL INDICE DEL MAP O VALORES QUE NO SE REPITAN COMO                         
 
 
 
+  **************************************************************************************
+
+ Clase 48
