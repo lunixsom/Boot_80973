@@ -1169,6 +1169,10 @@ Instalar EXTENSIONES para REACT en Chrome ( 1:59 hs )
  Clase 47
 
 
+    ESTADOS EN REACT: Cada vez que queramos crear un estado va ser porque necesitamos que alguno de los estados cuando sea modificado por el usuario por cualquier motivo React vuelva a pintar el componente para que podamos ver el nuevo valor de dicho estado.
+
+
+
     Resumen:
 
     La Biblia es como un martillo:
@@ -1231,6 +1235,18 @@ Estados en React ( 10:30 min a  )
 
             React entiende que uno de los estados que el componente contador maneja se modifico con un nueov valor pero el entiende que tiene que volver a renderizar el componente.
 
+
+            Otro ejemplo:
+
+                Como hacer para guardar lo ingresado en un input en un estado:
+
+
+                        const [ texto, setTexto ] = useState("")
+
+                        <input type="text" onInput={ (evento) => setTexto(evento.target.value) } />  //Aca internamente se crea un addEventlistener
+
+
+             
 
             
 
