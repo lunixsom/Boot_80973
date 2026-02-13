@@ -1287,3 +1287,8 @@ Estados en React ( 10:30 min a  )
   **************************************************************************************
 
  Clase 48
+
+
+    Como podemos hacer un especie de FOR dentro de lo que seria nuestro componente.
+
+    
